@@ -1,0 +1,62 @@
+body {
+    font-family: 'Comic-Sans';
+    background-color:antiquewhite;
+    color:burlywood
+
+
+}
+{
+h1 
+    color:brown
+}
+    /*attribute Selector */
+    a {
+        color:darkgoldenrod
+    }
+
+    /* child selector */
+    ul > li {
+font-weight: bold;
+    }
+        /* Sibling Selector */
+        h1+p {
+            background-color: #161B22;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    
+        /* :hover Pseudo-class */
+        ul li:hover {
+            color:khaki;
+        }
+    
+        /* :nth-child(n) Pseudo-class */
+        ul li:nth-child(3) {
+            background-color:;
+    
+        }
+    
+        /* :not(selector) Pseudo-class */
+        p:not(:first-of-type) {
+            text-decoration: underline;
+        }
+    
+        /* ::before Pseudo-element */
+        ul li ::before {
+            content: " ";
+        }
+    
+        /* ::after Pseudo-element */
+        a::after {
+            content: " ";
+        }
+    
+    p::first-letter {
+        font-size: 200%;
+        color: F7B72;
+    }
+
+
+
+    
+
